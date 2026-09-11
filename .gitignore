@@ -1,0 +1,23 @@
+# MongoDB runtime data
+**/data/mongo-1/
+**/data/mongo-2/
+**/data/mongo-3/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Dependencies
+**/node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

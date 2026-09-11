@@ -1,0 +1,876 @@
+[
+  {
+    "Nombre": "Elena Marquez",
+    "Nacionalidad": "Chile",
+    "FechaNacimiento": "1988-04-17",
+    "Edad": 38,
+    "Patrimonio": 2400000,
+    "Idiomas": [
+      "Espanol",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Lira Solis",
+        "Produccion": "Guardianes del Eclipse",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 48,
+        "Generos": [
+          "Fantasia",
+          "Aventura"
+        ]
+      },
+      {
+        "Nombre": "Mara Voss",
+        "Produccion": "Neon District",
+        "TipoProduccion": "Profesional",
+        "Rol": "Secundario",
+        "Apariciones": 21,
+        "Generos": [
+          "Ciencia ficcion",
+          "Accion"
+        ]
+      },
+      {
+        "Nombre": "Nina",
+        "Produccion": "Cafe Medianoche",
+        "TipoProduccion": "Independiente",
+        "Rol": "Extra",
+        "Apariciones": 3,
+        "Generos": [
+          "Comedia",
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Takumi Arai",
+    "Nacionalidad": "Japon",
+    "FechaNacimiento": "1979-11-02",
+    "Edad": 46,
+    "Patrimonio": 8700000,
+    "Idiomas": [
+      "Japones",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Ren Kurogane",
+        "Produccion": "Crimson Blade",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 96,
+        "Generos": [
+          "Anime",
+          "Accion",
+          "Fantasia"
+        ]
+      },
+      {
+        "Nombre": "Doctor Hoshi",
+        "Produccion": "Orbit 9",
+        "TipoProduccion": "Profesional",
+        "Rol": "Secundario",
+        "Apariciones": 18,
+        "Generos": [
+          "Ciencia ficcion",
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Sofia Bellini",
+    "Nacionalidad": "Argentina",
+    "FechaNacimiento": "1995-08-29",
+    "Edad": 31,
+    "Patrimonio": 950000,
+    "Idiomas": [
+      "Espanol",
+      "Italiano",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Valentina Cruz",
+        "Produccion": "Ritmo de Barrio",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 62,
+        "Generos": [
+          "Drama",
+          "Musical"
+        ]
+      },
+      {
+        "Nombre": "Pip",
+        "Produccion": "Bosque de Bolsillo",
+        "TipoProduccion": "Independiente",
+        "Rol": "Principal",
+        "Apariciones": 14,
+        "Generos": [
+          "Animacion",
+          "Infantil",
+          "Aventura"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Marcus Reed",
+    "Nacionalidad": "Estados Unidos",
+    "FechaNacimiento": "1968-01-13",
+    "Edad": 58,
+    "Patrimonio": 15500000,
+    "Idiomas": [
+      "Ingles",
+      "Frances"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Commander Holt",
+        "Produccion": "Star Frontier IV",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 37,
+        "Generos": [
+          "Ciencia ficcion",
+          "Accion"
+        ]
+      },
+      {
+        "Nombre": "Victor Kane",
+        "Produccion": "Ash City",
+        "TipoProduccion": "Profesional",
+        "Rol": "Secundario",
+        "Apariciones": 44,
+        "Generos": [
+          "Crimen",
+          "Drama"
+        ]
+      },
+      {
+        "Nombre": "Old Bear",
+        "Produccion": "Maple Tales",
+        "TipoProduccion": "Profesional",
+        "Rol": "Extra",
+        "Apariciones": 7,
+        "Generos": [
+          "Infantil",
+          "Comedia"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Camille Laurent",
+    "Nacionalidad": "Francia",
+    "FechaNacimiento": "1990-06-21",
+    "Edad": 36,
+    "Patrimonio": 3100000,
+    "Idiomas": [
+      "Frances",
+      "Ingles",
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Celeste Arnaud",
+        "Produccion": "Lumiere Noire",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 28,
+        "Generos": [
+          "Misterio",
+          "Drama"
+        ]
+      },
+      {
+        "Nombre": "Iris",
+        "Produccion": "Paper Moon",
+        "TipoProduccion": "Independiente",
+        "Rol": "Secundario",
+        "Apariciones": 9,
+        "Generos": [
+          "Fantasia",
+          "Romance"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Diego Salazar",
+    "Nacionalidad": "Mexico",
+    "FechaNacimiento": "1983-03-05",
+    "Edad": 43,
+    "Patrimonio": 6200000,
+    "Idiomas": [
+      "Espanol",
+      "Ingles",
+      "Portugues"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Rafael Tormenta",
+        "Produccion": "Lucha Cosmos",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 105,
+        "Generos": [
+          "Accion",
+          "Comedia"
+        ]
+      },
+      {
+        "Nombre": "Mateo Rojas",
+        "Produccion": "Frontera Cero",
+        "TipoProduccion": "Profesional",
+        "Rol": "Secundario",
+        "Apariciones": 33,
+        "Generos": [
+          "Western",
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Hana Seo",
+    "Nacionalidad": "Corea del Sur",
+    "FechaNacimiento": "2000-12-11",
+    "Edad": 25,
+    "Patrimonio": 780000,
+    "Idiomas": [
+      "Coreano",
+      "Japones",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Yuna",
+        "Produccion": "Sky Academy",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 52,
+        "Generos": [
+          "Anime",
+          "Comedia",
+          "Fantasia"
+        ]
+      },
+      {
+        "Nombre": "Echo",
+        "Produccion": "Signal Lost",
+        "TipoProduccion": "Independiente",
+        "Rol": "Secundario",
+        "Apariciones": 11,
+        "Generos": [
+          "Terror",
+          "Ciencia ficcion"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Oliver Bennett",
+    "Nacionalidad": "Reino Unido",
+    "FechaNacimiento": "1974-09-30",
+    "Edad": 51,
+    "Patrimonio": 12000000,
+    "Idiomas": [
+      "Ingles",
+      "Aleman"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Sir Aldric",
+        "Produccion": "Kingdoms at War",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 73,
+        "Generos": [
+          "Fantasia",
+          "Accion"
+        ]
+      },
+      {
+        "Nombre": "Professor Wren",
+        "Produccion": "Clockwork Manor",
+        "TipoProduccion": "Profesional",
+        "Rol": "Secundario",
+        "Apariciones": 26,
+        "Generos": [
+          "Misterio",
+          "Aventura"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Valeria Costa",
+    "Nacionalidad": "Brasil",
+    "FechaNacimiento": "1998-02-14",
+    "Edad": 28,
+    "Patrimonio": 520000,
+    "Idiomas": [
+      "Portugues",
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Lua",
+        "Produccion": "Amazonia Viva",
+        "TipoProduccion": "Independiente",
+        "Rol": "Principal",
+        "Apariciones": 19,
+        "Generos": [
+          "Aventura",
+          "Drama"
+        ]
+      },
+      {
+        "Nombre": "Carla Neon",
+        "Produccion": "Turbo Rua",
+        "TipoProduccion": "Profesional",
+        "Rol": "Secundario",
+        "Apariciones": 12,
+        "Generos": [
+          "Accion",
+          "Deportes"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Lukas Weber",
+    "Nacionalidad": "Alemania",
+    "FechaNacimiento": "1986-07-08",
+    "Edad": 40,
+    "Patrimonio": 4300000,
+    "Idiomas": [
+      "Aleman",
+      "Ingles",
+      "Frances"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Erik Stahl",
+        "Produccion": "Iron Horizon",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 41,
+        "Generos": [
+          "Accion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "Nombre": "Bram",
+        "Produccion": "Tiny Knights",
+        "TipoProduccion": "Profesional",
+        "Rol": "Extra",
+        "Apariciones": 5,
+        "Generos": [
+          "Infantil",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Lucia Ferraro",
+    "Nacionalidad": "Italia",
+    "FechaNacimiento": "1965-05-24",
+    "Edad": 61,
+    "Patrimonio": 9800000,
+    "Idiomas": [
+      "Italiano",
+      "Frances",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Isabella Moretti",
+        "Produccion": "Villa Rosa",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 88,
+        "Generos": [
+          "Drama",
+          "Romance"
+        ]
+      },
+      {
+        "Nombre": "Regina",
+        "Produccion": "Fable Crown",
+        "TipoProduccion": "Profesional",
+        "Rol": "Secundario",
+        "Apariciones": 32,
+        "Generos": [
+          "Fantasia",
+          "Aventura"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Noah Tremblay",
+    "Nacionalidad": "Canada",
+    "FechaNacimiento": "1992-10-19",
+    "Edad": 33,
+    "Patrimonio": 1750000,
+    "Idiomas": [
+      "Ingles",
+      "Frances"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Evan Frost",
+        "Produccion": "Northbound",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 35,
+        "Generos": [
+          "Aventura",
+          "Drama"
+        ]
+      },
+      {
+        "Nombre": "Byte",
+        "Produccion": "Pixel Pals",
+        "TipoProduccion": "Independiente",
+        "Rol": "Principal",
+        "Apariciones": 22,
+        "Generos": [
+          "Comedia",
+          "Videojuego"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Aiko Matsuda",
+    "Nacionalidad": "Japon",
+    "FechaNacimiento": "2002-03-27",
+    "Edad": 24,
+    "Patrimonio": 410000,
+    "Idiomas": [
+      "Japones"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Mika Hanabi",
+        "Produccion": "Cherry Comet",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 39,
+        "Generos": [
+          "Anime",
+          "Romance",
+          "Comedia"
+        ]
+      },
+      {
+        "Nombre": "Koko",
+        "Produccion": "Dream Capsule",
+        "TipoProduccion": "Independiente",
+        "Rol": "Extra",
+        "Apariciones": 4,
+        "Generos": [
+          "Fantasia",
+          "Experimental"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Rafael Ortega",
+    "Nacionalidad": "Espana",
+    "FechaNacimiento": "1981-12-03",
+    "Edad": 44,
+    "Patrimonio": 5400000,
+    "Idiomas": [
+      "Espanol",
+      "Catalan",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Capitan Vega",
+        "Produccion": "Mareas de Acero",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 57,
+        "Generos": [
+          "Aventura",
+          "Accion"
+        ]
+      },
+      {
+        "Nombre": "Tomas",
+        "Produccion": "La Casa del Olivo",
+        "TipoProduccion": "Profesional",
+        "Rol": "Secundario",
+        "Apariciones": 16,
+        "Generos": [
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Amelie Dubois",
+    "Nacionalidad": "Belgica",
+    "FechaNacimiento": "1997-01-09",
+    "Edad": 29,
+    "Patrimonio": 680000,
+    "Idiomas": [
+      "Frances",
+      "Neerlandes",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Meline",
+        "Produccion": "Glass Garden",
+        "TipoProduccion": "Independiente",
+        "Rol": "Principal",
+        "Apariciones": 17,
+        "Generos": [
+          "Misterio",
+          "Fantasia"
+        ]
+      },
+      {
+        "Nombre": "Agent Lune",
+        "Produccion": "Black File",
+        "TipoProduccion": "Profesional",
+        "Rol": "Secundario",
+        "Apariciones": 13,
+        "Generos": [
+          "Suspenso",
+          "Accion"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Mateo Riquelme",
+    "Nacionalidad": "Chile",
+    "FechaNacimiento": "2001-07-16",
+    "Edad": 25,
+    "Patrimonio": 230000,
+    "Idiomas": [
+      "Espanol"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Nico Flux",
+        "Produccion": "Metro Sur 2099",
+        "TipoProduccion": "Independiente",
+        "Rol": "Principal",
+        "Apariciones": 24,
+        "Generos": [
+          "Ciencia ficcion",
+          "Accion"
+        ]
+      },
+      {
+        "Nombre": "Pato",
+        "Produccion": "Barrio Beta",
+        "TipoProduccion": "Independiente",
+        "Rol": "Secundario",
+        "Apariciones": 31,
+        "Generos": [
+          "Comedia"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Priya Nair",
+    "Nacionalidad": "India",
+    "FechaNacimiento": "1989-09-12",
+    "Edad": 37,
+    "Patrimonio": 3600000,
+    "Idiomas": [
+      "Hindi",
+      "Ingles",
+      "Tamil"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Anaya",
+        "Produccion": "Monsoon Legends",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 64,
+        "Generos": [
+          "Fantasia",
+          "Aventura"
+        ]
+      },
+      {
+        "Nombre": "Dr. Meera Sen",
+        "Produccion": "Quantum Lotus",
+        "TipoProduccion": "Profesional",
+        "Rol": "Secundario",
+        "Apariciones": 27,
+        "Generos": [
+          "Ciencia ficcion",
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Erik Johansen",
+    "Nacionalidad": "Noruega",
+    "FechaNacimiento": "1971-04-01",
+    "Edad": 55,
+    "Patrimonio": 7100000,
+    "Idiomas": [
+      "Noruego",
+      "Ingles",
+      "Sueco"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Bjorn Skall",
+        "Produccion": "Runes of Winter",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 49,
+        "Generos": [
+          "Fantasia",
+          "Accion"
+        ]
+      },
+      {
+        "Nombre": "Narrador",
+        "Produccion": "Northern Lights",
+        "TipoProduccion": "Independiente",
+        "Rol": "Extra",
+        "Apariciones": 2,
+        "Generos": [
+          "Documental"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Zoe Martin",
+    "Nacionalidad": "Australia",
+    "FechaNacimiento": "1994-05-06",
+    "Edad": 32,
+    "Patrimonio": 1450000,
+    "Idiomas": [
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Kayla Reef",
+        "Produccion": "Deep Blue Rescue",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 46,
+        "Generos": [
+          "Aventura",
+          "Infantil"
+        ]
+      },
+      {
+        "Nombre": "Rook",
+        "Produccion": "Dust Circuit",
+        "TipoProduccion": "Independiente",
+        "Rol": "Secundario",
+        "Apariciones": 8,
+        "Generos": [
+          "Accion",
+          "Ciencia ficcion"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Ines Carvalho",
+    "Nacionalidad": "Portugal",
+    "FechaNacimiento": "1984-02-25",
+    "Edad": 42,
+    "Patrimonio": 2900000,
+    "Idiomas": [
+      "Portugues",
+      "Espanol",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Marina Luz",
+        "Produccion": "Atlantic Hearts",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 54,
+        "Generos": [
+          "Drama",
+          "Romance"
+        ]
+      },
+      {
+        "Nombre": "Vega",
+        "Produccion": "Void Sailors",
+        "TipoProduccion": "Profesional",
+        "Rol": "Secundario",
+        "Apariciones": 29,
+        "Generos": [
+          "Ciencia ficcion",
+          "Aventura"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Kenji Sato",
+    "Nacionalidad": "Japon",
+    "FechaNacimiento": "1959-08-18",
+    "Edad": 67,
+    "Patrimonio": 21000000,
+    "Idiomas": [
+      "Japones",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Master Raiko",
+        "Produccion": "Dragon Path",
+        "TipoProduccion": "Profesional",
+        "Rol": "Secundario",
+        "Apariciones": 120,
+        "Generos": [
+          "Anime",
+          "Accion",
+          "Fantasia"
+        ]
+      },
+      {
+        "Nombre": "Shiro Tanabe",
+        "Produccion": "Last Station Tokyo",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 34,
+        "Generos": [
+          "Drama",
+          "Misterio"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Camila Torres",
+    "Nacionalidad": "Colombia",
+    "FechaNacimiento": "1999-11-23",
+    "Edad": 26,
+    "Patrimonio": 340000,
+    "Idiomas": [
+      "Espanol",
+      "Ingles"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Lola",
+        "Produccion": "Selva Pop",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 43,
+        "Generos": [
+          "Musical",
+          "Comedia"
+        ]
+      },
+      {
+        "Nombre": "Violeta",
+        "Produccion": "Sombras de Cali",
+        "TipoProduccion": "Independiente",
+        "Rol": "Secundario",
+        "Apariciones": 15,
+        "Generos": [
+          "Crimen",
+          "Drama"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Marek Kowalski",
+    "Nacionalidad": "Polonia",
+    "FechaNacimiento": "1977-06-10",
+    "Edad": 49,
+    "Patrimonio": 4700000,
+    "Idiomas": [
+      "Polaco",
+      "Ingles",
+      "Aleman"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Viktor Dragun",
+        "Produccion": "Steel Republic",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 68,
+        "Generos": [
+          "Accion",
+          "Suspenso"
+        ]
+      },
+      {
+        "Nombre": "Janek",
+        "Produccion": "Snow Radio",
+        "TipoProduccion": "Independiente",
+        "Rol": "Extra",
+        "Apariciones": 6,
+        "Generos": [
+          "Drama",
+          "Experimental"
+        ]
+      }
+    ]
+  },
+  {
+    "Nombre": "Nadia El-Masri",
+    "Nacionalidad": "Egipto",
+    "FechaNacimiento": "1991-03-14",
+    "Edad": 35,
+    "Patrimonio": 2100000,
+    "Idiomas": [
+      "Arabe",
+      "Ingles",
+      "Frances"
+    ],
+    "Personajes": [
+      {
+        "Nombre": "Layla Noor",
+        "Produccion": "Sands of Time",
+        "TipoProduccion": "Profesional",
+        "Rol": "Principal",
+        "Apariciones": 51,
+        "Generos": [
+          "Aventura",
+          "Fantasia"
+        ]
+      },
+      {
+        "Nombre": "Amira",
+        "Produccion": "Cairo Nights",
+        "TipoProduccion": "Profesional",
+        "Rol": "Secundario",
+        "Apariciones": 23,
+        "Generos": [
+          "Drama",
+          "Misterio"
+        ]
+      }
+    ]
+  }
+]
