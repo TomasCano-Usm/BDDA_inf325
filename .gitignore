@@ -3,6 +3,15 @@
 **/data/mongo-2/
 **/data/mongo-3/
 
+# Cassandra runtime data
+**/data/cassandra-1/
+**/data/cassandra-2/
+**/data/cassandra-3/
+
+# Cassandra local files
+.cqlsh_history
+cqlsh_history
+
 # Environment variables
 .env
 .env.*

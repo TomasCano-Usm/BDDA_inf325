@@ -1,0 +1,406 @@
+[
+  {
+    "id": "A001",
+    "nombre": "Lucía Fernández",
+    "nacionalidad": "Chile",
+    "fecha_nacimiento": "1998-04-12",
+    "edad": 28,
+    "patrimonio": 125000,
+    "idiomas": ["español", "inglés"],
+    "personajes": [
+      {
+        "nombre": "Luna Vega",
+        "produccion": "Guardianes del Sur",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 42,
+        "generos": ["aventura", "fantasía"]
+      },
+      {
+        "nombre": "Mara",
+        "produccion": "Ecos de Acero",
+        "tipo_produccion": "independiente",
+        "rol": "principal",
+        "apariciones": 18,
+        "generos": ["ciencia ficción", "drama"]
+      },
+      {
+        "nombre": "Elena Cruz",
+        "produccion": "Horizonte Rojo",
+        "tipo_produccion": "profesional",
+        "rol": "secundario",
+        "apariciones": 13,
+        "generos": ["acción", "drama"]
+      }
+    ]
+  },
+  {
+    "id": "A002",
+    "nombre": "Diego Morales",
+    "nacionalidad": "Chile",
+    "fecha_nacimiento": "1985-09-03",
+    "edad": 41,
+    "patrimonio": 310000,
+    "idiomas": ["español"],
+    "personajes": [
+      {
+        "nombre": "Comandante Rojas",
+        "produccion": "Guardianes del Sur",
+        "tipo_produccion": "profesional",
+        "rol": "secundario",
+        "apariciones": 27,
+        "generos": ["aventura", "fantasía"]
+      },
+      {
+        "nombre": "Dante",
+        "produccion": "Ciudad Cero",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 35,
+        "generos": ["acción", "ciencia ficción"]
+      }
+    ]
+  },
+  {
+    "id": "A003",
+    "nombre": "Valentina Soto",
+    "nacionalidad": "Chile",
+    "fecha_nacimiento": "1992-01-25",
+    "edad": 34,
+    "patrimonio": 215000,
+    "idiomas": ["español", "inglés", "portugués"],
+    "personajes": [
+      {
+        "nombre": "Iris",
+        "produccion": "Reinos de Cristal",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 51,
+        "generos": ["fantasía", "aventura"]
+      }
+    ]
+  },
+  {
+    "id": "A004",
+    "nombre": "Matías Herrera",
+    "nacionalidad": "Chile",
+    "fecha_nacimiento": "1977-06-18",
+    "edad": 49,
+    "patrimonio": 480000,
+    "idiomas": ["español", "inglés"],
+    "personajes": [
+      {
+        "nombre": "Víctor Kane",
+        "produccion": "Ecos de Acero",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 44,
+        "generos": ["ciencia ficción", "acción"]
+      }
+    ]
+  },
+  {
+    "id": "A005",
+    "nombre": "Camila Rojas",
+    "nacionalidad": "Chile",
+    "fecha_nacimiento": "2001-11-07",
+    "edad": 24,
+    "patrimonio": 90000,
+    "idiomas": ["español", "inglés"],
+    "personajes": [
+      {
+        "nombre": "Nia",
+        "produccion": "Estrellas Perdidas",
+        "tipo_produccion": "independiente",
+        "rol": "principal",
+        "apariciones": 22,
+        "generos": ["fantasía", "comedia"]
+      }
+    ]
+  },
+  {
+    "id": "A006",
+    "nombre": "Sofía Ramírez",
+    "nacionalidad": "Argentina",
+    "fecha_nacimiento": "1989-02-14",
+    "edad": 37,
+    "patrimonio": 275000,
+    "idiomas": ["español", "italiano"],
+    "personajes": [
+      {
+        "nombre": "Ariana",
+        "produccion": "Reinos de Cristal",
+        "tipo_produccion": "profesional",
+        "rol": "secundario",
+        "apariciones": 24,
+        "generos": ["fantasía", "aventura"]
+      }
+    ]
+  },
+  {
+    "id": "A007",
+    "nombre": "Nicolás Álvarez",
+    "nacionalidad": "Argentina",
+    "fecha_nacimiento": "1996-08-21",
+    "edad": 30,
+    "patrimonio": 165000,
+    "idiomas": ["español", "inglés"],
+    "personajes": [
+      {
+        "nombre": "Axel",
+        "produccion": "Ciudad Cero",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 31,
+        "generos": ["acción", "ciencia ficción"]
+      }
+    ]
+  },
+  {
+    "id": "A008",
+    "nombre": "Martina López",
+    "nacionalidad": "Argentina",
+    "fecha_nacimiento": "1974-12-02",
+    "edad": 51,
+    "patrimonio": 620000,
+    "idiomas": ["español", "inglés", "francés"],
+    "personajes": [
+      {
+        "nombre": "Reina Althea",
+        "produccion": "Reinos de Cristal",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 48,
+        "generos": ["fantasía", "drama"]
+      }
+    ]
+  },
+  {
+    "id": "A009",
+    "nombre": "Emiliano Torres",
+    "nacionalidad": "Argentina",
+    "fecha_nacimiento": "1982-05-30",
+    "edad": 44,
+    "patrimonio": 390000,
+    "idiomas": ["español", "portugués"],
+    "personajes": [
+      {
+        "nombre": "Bruno",
+        "produccion": "Ruta Infinita",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 16,
+        "generos": ["drama", "aventura"]
+      }
+    ]
+  },
+  {
+    "id": "A010",
+    "nombre": "Renata Silva",
+    "nacionalidad": "Argentina",
+    "fecha_nacimiento": "2000-03-16",
+    "edad": 26,
+    "patrimonio": 105000,
+    "idiomas": ["español", "inglés"],
+    "personajes": [
+      {
+        "nombre": "Kira",
+        "produccion": "Neón 2099",
+        "tipo_produccion": "independiente",
+        "rol": "principal",
+        "apariciones": 29,
+        "generos": ["ciencia ficción", "acción"]
+      }
+    ]
+  },
+  {
+    "id": "A011",
+    "nombre": "Daniel Ortega",
+    "nacionalidad": "México",
+    "fecha_nacimiento": "1980-10-11",
+    "edad": 46,
+    "patrimonio": 530000,
+    "idiomas": ["español", "inglés"],
+    "personajes": [
+      {
+        "nombre": "General Solís",
+        "produccion": "Horizonte Rojo",
+        "tipo_produccion": "profesional",
+        "rol": "secundario",
+        "apariciones": 32,
+        "generos": ["acción", "drama"]
+      }
+    ]
+  },
+  {
+    "id": "A012",
+    "nombre": "Mariana Castillo",
+    "nacionalidad": "México",
+    "fecha_nacimiento": "1994-07-09",
+    "edad": 32,
+    "patrimonio": 240000,
+    "idiomas": ["español", "inglés", "francés"],
+    "personajes": [
+      {
+        "nombre": "Selene",
+        "produccion": "Lunas Gemelas",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 38,
+        "generos": ["fantasía", "romance"]
+      }
+    ]
+  },
+  {
+    "id": "A013",
+    "nombre": "Alejandro Vega",
+    "nacionalidad": "México",
+    "fecha_nacimiento": "1990-04-28",
+    "edad": 36,
+    "patrimonio": 295000,
+    "idiomas": ["español", "inglés"],
+    "personajes": [
+      {
+        "nombre": "Orion",
+        "produccion": "Estrellas Perdidas",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 46,
+        "generos": ["ciencia ficción", "aventura"]
+      }
+    ]
+  },
+  {
+    "id": "A014",
+    "nombre": "Fernanda Reyes",
+    "nacionalidad": "México",
+    "fecha_nacimiento": "2002-01-05",
+    "edad": 24,
+    "patrimonio": 85000,
+    "idiomas": ["español"],
+    "personajes": [
+      {
+        "nombre": "Mimi",
+        "produccion": "Pequeños Héroes",
+        "tipo_produccion": "independiente",
+        "rol": "principal",
+        "apariciones": 20,
+        "generos": ["comedia", "aventura"]
+      }
+    ]
+  },
+  {
+    "id": "A015",
+    "nombre": "Carlos Mendoza",
+    "nacionalidad": "México",
+    "fecha_nacimiento": "1970-09-19",
+    "edad": 56,
+    "patrimonio": 780000,
+    "idiomas": ["español", "inglés"],
+    "personajes": [
+      {
+        "nombre": "Maestro León",
+        "produccion": "Guardianes del Sur",
+        "tipo_produccion": "profesional",
+        "rol": "secundario",
+        "apariciones": 37,
+        "generos": ["aventura", "fantasía"]
+      }
+    ]
+  },
+  {
+    "id": "A016",
+    "nombre": "Laura García",
+    "nacionalidad": "España",
+    "fecha_nacimiento": "1987-05-13",
+    "edad": 39,
+    "patrimonio": 350000,
+    "idiomas": ["español", "inglés", "catalán"],
+    "personajes": [
+      {
+        "nombre": "Ada",
+        "produccion": "Crónicas del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 40,
+        "generos": ["fantasía", "aventura"]
+      }
+    ]
+  },
+  {
+    "id": "A017",
+    "nombre": "Javier Martín",
+    "nacionalidad": "España",
+    "fecha_nacimiento": "1979-02-23",
+    "edad": 47,
+    "patrimonio": 570000,
+    "idiomas": ["español", "inglés"],
+    "personajes": [
+      {
+        "nombre": "Héctor",
+        "produccion": "Crónicas del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "secundario",
+        "apariciones": 28,
+        "generos": ["fantasía", "aventura"]
+      }
+    ]
+  },
+  {
+    "id": "A018",
+    "nombre": "Elena Navarro",
+    "nacionalidad": "España",
+    "fecha_nacimiento": "1999-06-01",
+    "edad": 27,
+    "patrimonio": 145000,
+    "idiomas": ["español", "inglés", "francés"],
+    "personajes": [
+      {
+        "nombre": "Nova",
+        "produccion": "Neón 2099",
+        "tipo_produccion": "independiente",
+        "rol": "principal",
+        "apariciones": 25,
+        "generos": ["ciencia ficción", "acción"]
+      }
+    ]
+  },
+  {
+    "id": "A019",
+    "nombre": "Pablo Serrano",
+    "nacionalidad": "España",
+    "fecha_nacimiento": "1993-12-17",
+    "edad": 32,
+    "patrimonio": 225000,
+    "idiomas": ["español", "italiano"],
+    "personajes": [
+      {
+        "nombre": "Gael",
+        "produccion": "Ruta Infinita",
+        "tipo_produccion": "independiente",
+        "rol": "principal",
+        "apariciones": 21,
+        "generos": ["drama", "aventura"]
+      }
+    ]
+  },
+  {
+    "id": "A020",
+    "nombre": "Andrea Molina",
+    "nacionalidad": "España",
+    "fecha_nacimiento": "1983-08-08",
+    "edad": 43,
+    "patrimonio": 410000,
+    "idiomas": ["español", "inglés"],
+    "personajes": [
+      {
+        "nombre": "Vera",
+        "produccion": "Lunas Gemelas",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 34,
+        "generos": ["fantasía", "romance"]
+      }
+    ]
+  }
+]
