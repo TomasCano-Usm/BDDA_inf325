@@ -6,6 +6,7 @@ Repositorio publico para la entrega de tareas relacionadas a la asignatura.
 ### Integrante
 
 | Nombre | Rol |
+|---|---|
 | Tomás Cano Huaiquimil | 202273559-7 |
 
 ## **(Tarea 2):** Grupal
