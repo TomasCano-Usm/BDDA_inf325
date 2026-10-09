@@ -1,0 +1,5 @@
+COMANDO: docker start cassandra3 cassandra2
+
+SALIDA REAL:
+cassandra3
+cassandra2

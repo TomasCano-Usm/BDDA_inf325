@@ -1,0 +1,8 @@
+COMANDO: docker exec -i cassandra1 cqlsh --no-color --encoding=UTF8 --request-timeout=120
+
+CQL:
+CONSISTENCY QUORUM;
+INSERT INTO actors.pruebas_disponibilidad (prueba_id, detalle) VALUES ('2_nodos_QUORUM', 'Escritura con 2 nodos y QUORUM');
+
+SALIDA REAL:
+Consistency level set to QUORUM.

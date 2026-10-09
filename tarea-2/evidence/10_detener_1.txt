@@ -1,0 +1,4 @@
+COMANDO: docker stop cassandra2
+
+SALIDA REAL:
+cassandra2

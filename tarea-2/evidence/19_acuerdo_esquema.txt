@@ -1,0 +1,30 @@
+COMANDO: docker exec cassandra1 nodetool describecluster
+
+SALIDA REAL:
+Cluster Information:
+	Name: MyCluster
+	Snitch: org.apache.cassandra.locator.SimpleSnitch
+	DynamicEndPointSnitch: enabled
+	Partitioner: org.apache.cassandra.dht.Murmur3Partitioner
+	Schema versions:
+		d03783d7-b468-3c1a-82f1-8e30b2edde8b: [172.19.0.3, 172.19.0.2, 172.19.0.4]
+
+Stats for all nodes:
+	Live: 3
+	Joining: 0
+	Moving: 0
+	Leaving: 0
+	Unreachable: 0
+
+Data Centers: 
+	datacenter1 #Nodes: 3 #Down: 0
+
+Database versions:
+	5.0.9: [172.19.0.3:7000, 172.19.0.2:7000, 172.19.0.4:7000]
+
+Keyspaces:
+	system_auth -> Replication class: SimpleStrategy {replication_factor=1}
+	system_distributed -> Replication class: SimpleStrategy {replication_factor=3}
+	system_traces -> Replication class: SimpleStrategy {replication_factor=2}
+	system_schema -> Replication class: LocalStrategy {}
+	system -> Replication class: LocalStrategy {}

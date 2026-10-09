@@ -1,0 +1,14 @@
+COMANDO: docker exec -i cassandra1 cqlsh --no-color --encoding=UTF8 --request-timeout=120
+
+CQL:
+CONSISTENCY QUORUM;
+SELECT nombre, nacionalidad, edad, idiomas FROM actors.actores_por_id WHERE actor_id = 22dc5764-19bb-5de4-8060-67332a1efaf0 LIMIT 10;
+
+SALIDA REAL:
+Consistency level set to QUORUM.
+
+ nombre       | nacionalidad | edad | idiomas
+--------------+--------------+------+-----------------------
+ Amalia Rojas |        Chile |   24 | {'Espanol', 'Ingles'}
+
+(1 rows)

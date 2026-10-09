@@ -1,0 +1,10 @@
+VERIFICACION REAL CONTRA CASSANDRA:
+{
+  "actores": 30,
+  "copias_verificadas": 30,
+  "personajes": 120,
+  "participaciones_nuevas": 30,
+  "principales": 18,
+  "secundarios": 12,
+  "patrimonio_consistente": true
+}

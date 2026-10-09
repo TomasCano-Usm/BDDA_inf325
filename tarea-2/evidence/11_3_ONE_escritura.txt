@@ -1,0 +1,8 @@
+COMANDO: docker exec -i cassandra1 cqlsh --no-color --encoding=UTF8 --request-timeout=120
+
+CQL:
+CONSISTENCY ONE;
+INSERT INTO actors.pruebas_disponibilidad (prueba_id, detalle) VALUES ('3_nodos_ONE', 'Escritura con 3 nodos y ONE');
+
+SALIDA REAL:
+Consistency level set to ONE.

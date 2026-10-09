@@ -1,0 +1,12 @@
+COMANDO: docker exec cassandra1 nodetool status
+
+SALIDA REAL:
+Datacenter: datacenter1
+=======================
+Status=Up/Down
+|/ State=Normal/Leaving/Joining/Moving
+--  Address     Load        Tokens  Owns (effective)  Host ID                               Rack 
+UN  172.19.0.4  410.48 KiB  64      100.0%            1cdc7370-64aa-49cf-aae3-1d041d1cacc8  rack1
+UN  172.19.0.2  245.74 KiB  64      100.0%            afedc97e-766d-435e-b407-9b7d4a41c576  rack1
+UN  172.19.0.3  472.45 KiB  64      100.0%            827f63e1-1326-4523-92d7-b5d503fe12d4  rack1
+

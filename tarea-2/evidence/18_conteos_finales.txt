@@ -1,0 +1,27 @@
+COMANDO: docker exec -i cassandra1 cqlsh --no-color --encoding=UTF8 --request-timeout=120
+
+CQL:
+CONSISTENCY QUORUM; SELECT count(actor_id) FROM actors.actores_por_id; SELECT count(personaje_id) FROM actors.personajes_por_actor;
+
+SALIDA REAL:
+Consistency level set to QUORUM.
+
+ system.count(actor_id)
+------------------------
+                     30
+
+(1 rows)
+
+Warnings :
+Aggregation query used without partition key
+
+
+ system.count(personaje_id)
+----------------------------
+                        120
+
+(1 rows)
+
+Warnings :
+Aggregation query used without partition key
+
