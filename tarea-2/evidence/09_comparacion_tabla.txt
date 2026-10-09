@@ -1,0 +1,55 @@
+COMANDO: docker exec -i cassandra1 cqlsh --no-color --encoding=UTF8 --request-timeout=120
+
+CQL:
+CONSISTENCY QUORUM;
+TRACING ON;
+SELECT actor_id, nombre, edad, patrimonio FROM actors.actores_por_nacionalidad WHERE nacionalidad = 'Chile' ORDER BY edad ASC LIMIT 10;
+TRACING OFF;
+
+SALIDA REAL:
+Consistency level set to QUORUM.
+TRACING set to ON
+
+ actor_id                             | nombre        | edad | patrimonio
+--------------------------------------+---------------+------+------------
+ 150b34b1-3f45-5020-b92a-4a73bc3b2701 |  Isidora Leon |   22 |     320000
+ 22dc5764-19bb-5de4-8060-67332a1efaf0 |  Amalia Rojas |   24 |     100000
+ 0d1ec8db-109e-50ab-977d-f51b641160e0 |  Elena Flores |   28 |     210000
+ 9cf6f271-3399-54f4-aac4-9e35539833a7 |   Camila Soto |   32 |     155000
+ 4c9055a8-4b4e-5d89-a214-9a0ab5546450 |   Javier Ruiz |   36 |     347500
+ 1e1a5f04-3faa-5223-b982-ab32dfe32e9a | Gabriela Vera |   39 |     265000
+ f331a013-826a-58fc-9aa9-d8173c4bd1e9 |   Bruno Vidal |   40 |     127500
+ 90f56447-4a6b-5614-8c5e-3fec0aa30523 |  Hector Salas |   45 |     292500
+ e32e2685-42c3-59cc-937e-c7ac1ee5a297 |   Diego Araya |   51 |     182500
+ 0ef010d3-b37e-589b-b371-f1627e78b566 |  Felipe Lagos |   60 |     237500
+
+(10 rows)
+
+Tracing session: ff33c040-c2ca-11f1-8933-cfff4284973f
+
+ activity                                                                                                                                                                       | timestamp                  | source     | source_elapsed | client
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+------------+----------------+-----------
+                                                                                                                                                             Execute CQL3 query | 2026-10-08 03:47:34.596000 | 172.19.0.2 |              0 | 127.0.0.1
+ Parsing SELECT actor_id, nombre, edad, patrimonio FROM actors.actores_por_nacionalidad WHERE nacionalidad = 'Chile' ORDER BY edad ASC LIMIT 10; [Native-Transport-Requests-15] | 2026-10-08 03:47:34.596001 | 172.19.0.2 |            196 | 127.0.0.1
+                                                                                                                             Preparing statement [Native-Transport-Requests-15] | 2026-10-08 03:47:34.596002 | 172.19.0.2 |            594 | 127.0.0.1
+                                                                                                    Executing single-partition query on actores_por_nacionalidad [ReadStage-17] | 2026-10-08 03:47:34.597000 | 172.19.0.2 |           1153 | 127.0.0.1
+                                                                                                            reading digest from /172.19.0.4:7000 [Native-Transport-Requests-15] | 2026-10-08 03:47:34.597001 | 172.19.0.2 |           1158 | 127.0.0.1
+                                                                                                                                    Acquiring sstable references [ReadStage-17] | 2026-10-08 03:47:34.597002 | 172.19.0.2 |           1334 | 127.0.0.1
+                                                                                       Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-17] | 2026-10-08 03:47:34.597003 | 172.19.0.2 |           1440 | 127.0.0.1
+                                                                        Sending READ_REQ message to cassandra2/172.19.0.4:7000 message size 147 bytes [Messaging-EventLoop-3-4] | 2026-10-08 03:47:34.597004 | 172.19.0.2 |           1466 | 127.0.0.1
+                                                                                                                           Key cache hit for sstable 1, size = 0 [ReadStage-17] | 2026-10-08 03:47:34.597005 | 172.19.0.2 |           1661 | 127.0.0.1
+                                                                                                                       Merged data from memtables and 1 sstables [ReadStage-17] | 2026-10-08 03:47:34.598000 | 172.19.0.2 |           2038 | 127.0.0.1
+                                                                                                      READ_REQ message received from /172.19.0.2:7000 [Messaging-EventLoop-3-9] | 2026-10-08 03:47:34.598000 | 172.19.0.4 |             29 | 127.0.0.1
+                                                                                                                         Read 10 live rows and 0 tombstone cells [ReadStage-17] | 2026-10-08 03:47:34.598001 | 172.19.0.2 |           2135 | 127.0.0.1
+                                                                                                     Executing single-partition query on actores_por_nacionalidad [ReadStage-1] | 2026-10-08 03:47:34.598001 | 172.19.0.4 |            578 | 127.0.0.1
+                                                                                                                                     Acquiring sstable references [ReadStage-1] | 2026-10-08 03:47:34.598002 | 172.19.0.4 |            700 | 127.0.0.1
+                                                                                        Skipped 0/0 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-1] | 2026-10-08 03:47:34.599000 | 172.19.0.4 |            846 | 127.0.0.1
+                                                                                                                        Merged data from memtables and 0 sstables [ReadStage-1] | 2026-10-08 03:47:34.599001 | 172.19.0.4 |           1431 | 127.0.0.1
+                                                                                                                          Read 10 live rows and 0 tombstone cells [ReadStage-1] | 2026-10-08 03:47:34.599002 | 172.19.0.4 |           1665 | 127.0.0.1
+                                                                                                                           Enqueuing response to /172.19.0.2:7000 [ReadStage-1] | 2026-10-08 03:47:34.599003 | 172.19.0.4 |           1747 | 127.0.0.1
+                                                                                                      READ_RSP message received from /172.19.0.4:7000 [Messaging-EventLoop-3-9] | 2026-10-08 03:47:34.600000 | 172.19.0.2 |           4251 | 127.0.0.1
+                                                                         Sending READ_RSP message to cassandra1/172.19.0.2:7000 message size 50 bytes [Messaging-EventLoop-3-1] | 2026-10-08 03:47:34.600000 | 172.19.0.4 |           1928 | 127.0.0.1
+                                                                                                             Processing response from /172.19.0.4:7000 [RequestResponseStage-2] | 2026-10-08 03:47:34.600001 | 172.19.0.2 |           4445 | 127.0.0.1
+                                                                                                                                                               Request complete | 2026-10-08 03:47:34.600989 | 172.19.0.2 |           4989 | 127.0.0.1
+
+TRACING set to OFF
