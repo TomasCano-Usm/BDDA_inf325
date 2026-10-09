@@ -1,0 +1,171 @@
+COMANDO: docker exec -i cassandra1 cqlsh --no-color --encoding=UTF8 --request-timeout=120
+
+CQL:
+CONSISTENCY QUORUM;
+TRACING ON;
+SELECT actor_id, nombre, idiomas FROM actors.actores_por_id WHERE idiomas CONTAINS 'Ingles' LIMIT 10;
+TRACING OFF;
+
+SALIDA REAL:
+Consistency level set to QUORUM.
+TRACING set to ON
+
+ actor_id                             | nombre       | idiomas
+--------------------------------------+--------------+-----------------------
+ 9069c8b8-fcd9-556a-a374-acfa23db3ce0 |   Kaori Mori | {'Ingles', 'Japones'}
+ 22dc5764-19bb-5de4-8060-67332a1efaf0 | Amalia Rojas | {'Espanol', 'Ingles'}
+ 1d6f26d2-6342-5276-ac55-b8dc03506f68 |  Lucia Solis | {'Espanol', 'Ingles'}
+ 150b34b1-3f45-5020-b92a-4a73bc3b2701 | Isidora Leon | {'Espanol', 'Ingles'}
+ 5b1000e3-3ff9-5290-b0cc-b46adbd65379 |    Hana Sato | {'Ingles', 'Japones'}
+ 124a06f6-b9b7-50ae-8428-7ab911264073 |  Emma Brooks |            {'Ingles'}
+ 07097163-f7af-55fc-8fba-3a2231ac98a3 | Adrian Serra | {'Espanol', 'Ingles'}
+ 1eb417ad-09cb-5d97-a686-c54c180cf64e |  Sora Fujita | {'Ingles', 'Japones'}
+ 7b32053c-6ee1-524e-87d7-166940386c0b | Nicolas Vega | {'Espanol', 'Ingles'}
+ db47888d-ad38-5055-989a-157352bacdd7 | Pablo Torres | {'Espanol', 'Ingles'}
+
+(10 rows)
+
+Tracing session: fec4d1d0-c2ca-11f1-8933-cfff4284973f
+
+ activity                                                                                                                                                     | timestamp                  | source     | source_elapsed | client
+--------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------+------------+----------------+-----------
+                                                                                                                                           Execute CQL3 query | 2026-10-08 03:47:33.869000 | 172.19.0.2 |              0 | 127.0.0.1
+                 Parsing SELECT actor_id, nombre, idiomas FROM actors.actores_por_id WHERE idiomas CONTAINS 'Ingles' LIMIT 10; [Native-Transport-Requests-13] | 2026-10-08 03:47:33.869001 | 172.19.0.2 |            192 | 127.0.0.1
+                                                                                                           Preparing statement [Native-Transport-Requests-13] | 2026-10-08 03:47:33.869002 | 172.19.0.2 |            402 | 127.0.0.1
+                      Index mean cardinalities are actores_idiomas_sai:9223372036854775807. Scanning with actores_idiomas_sai. [Native-Transport-Requests-13] | 2026-10-08 03:47:33.871000 | 172.19.0.2 |           2200 | 127.0.0.1
+                                                                                                     Computing ranges to query [Native-Transport-Requests-13] | 2026-10-08 03:47:33.871001 | 172.19.0.2 |           2297 | 127.0.0.1
+                                                             Submitting range requests on 193 ranges with a concurrency of 120 [Native-Transport-Requests-13] | 2026-10-08 03:47:33.871002 | 172.19.0.2 |           2451 | 127.0.0.1
+                              Enqueuing request to Full(cassandra1/172.19.0.2:7000,(9158365792698184671,-9094532131582896750]) [Native-Transport-Requests-13] | 2026-10-08 03:47:33.872000 | 172.19.0.2 |           3845 | 127.0.0.1
+                                        Enqueuing request to Full(/172.19.0.4:7000,(9158365792698184671,-9094532131582896750]) [Native-Transport-Requests-13] | 2026-10-08 03:47:33.873000 | 172.19.0.2 |           4016 | 127.0.0.1
+                                                                                   RANGE_REQ message received from /172.19.0.2:7000 [Messaging-EventLoop-3-9] | 2026-10-08 03:47:33.873000 | 172.19.0.4 |             22 | 127.0.0.1
+                                                     Sending RANGE_REQ message to cassandra1/172.19.0.2:7000 message size 216 bytes [Messaging-EventLoop-3-1] | 2026-10-08 03:47:33.873001 | 172.19.0.2 |           4054 | 127.0.0.1
+                                                                                         Submitted 1 concurrent range requests [Native-Transport-Requests-13] | 2026-10-08 03:47:33.873002 | 172.19.0.2 |           4075 | 127.0.0.1
+                                                     Sending RANGE_REQ message to cassandra2/172.19.0.4:7000 message size 216 bytes [Messaging-EventLoop-3-4] | 2026-10-08 03:47:33.873003 | 172.19.0.2 |           4197 | 127.0.0.1
+                                                                                   RANGE_REQ message received from /172.19.0.2:7000 [Messaging-EventLoop-3-4] | 2026-10-08 03:47:33.873004 | 172.19.0.2 |           4723 | 127.0.0.1
+                                                                        Executing read on actors.actores_por_id using index actores_idiomas_sai [ReadStage-1] | 2026-10-08 03:47:33.874000 | 172.19.0.2 |           4905 | 127.0.0.1
+                                                                        Executing read on actors.actores_por_id using index actores_idiomas_sai [ReadStage-2] | 2026-10-08 03:47:33.874000 | 172.19.0.4 |            386 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-1] | 2026-10-08 03:47:33.874001 | 172.19.0.2 |           5582 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-1] | 2026-10-08 03:47:33.874002 | 172.19.0.2 |           5688 | 127.0.0.1
+                                                                      Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-1] | 2026-10-08 03:47:33.874003 | 172.19.0.2 |           5789 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.875000 | 172.19.0.2 |           5942 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-2] | 2026-10-08 03:47:33.875000 | 172.19.0.4 |           1218 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 2, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.875001 | 172.19.0.2 |           6110 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-2] | 2026-10-08 03:47:33.875001 | 172.19.0.4 |           1356 | 127.0.0.1
+                                                                                                      Merged data from memtables and 2 sstables [ReadStage-1] | 2026-10-08 03:47:33.875002 | 172.19.0.2 |           6338 | 127.0.0.1
+                                                                      Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-2] | 2026-10-08 03:47:33.875002 | 172.19.0.4 |           1532 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-1] | 2026-10-08 03:47:33.875003 | 172.19.0.2 |           6562 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-2] | 2026-10-08 03:47:33.875003 | 172.19.0.4 |           1670 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-1] | 2026-10-08 03:47:33.875004 | 172.19.0.2 |           6600 | 127.0.0.1
+                                                                      Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-1] | 2026-10-08 03:47:33.875005 | 172.19.0.2 |           6701 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.875006 | 172.19.0.2 |           6798 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 2, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.876000 | 172.19.0.2 |           6897 | 127.0.0.1
+                                                                                                      Merged data from memtables and 1 sstables [ReadStage-2] | 2026-10-08 03:47:33.876000 | 172.19.0.4 |           2136 | 127.0.0.1
+                                                                                                      Merged data from memtables and 2 sstables [ReadStage-1] | 2026-10-08 03:47:33.876001 | 172.19.0.2 |           7075 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-2] | 2026-10-08 03:47:33.876001 | 172.19.0.4 |           2448 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-1] | 2026-10-08 03:47:33.876002 | 172.19.0.2 |           7269 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-2] | 2026-10-08 03:47:33.876002 | 172.19.0.4 |           2548 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-1] | 2026-10-08 03:47:33.876003 | 172.19.0.2 |           7309 | 127.0.0.1
+                                                                      Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-2] | 2026-10-08 03:47:33.876003 | 172.19.0.4 |           2686 | 127.0.0.1
+                                                                      Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-1] | 2026-10-08 03:47:33.876004 | 172.19.0.2 |           7369 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-2] | 2026-10-08 03:47:33.876004 | 172.19.0.4 |           2800 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.876005 | 172.19.0.2 |           7458 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 2, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.876006 | 172.19.0.2 |           7563 | 127.0.0.1
+                                                                                                      Merged data from memtables and 2 sstables [ReadStage-1] | 2026-10-08 03:47:33.876007 | 172.19.0.2 |           7747 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-1] | 2026-10-08 03:47:33.877000 | 172.19.0.2 |           7928 | 127.0.0.1
+                                                                                                      Merged data from memtables and 1 sstables [ReadStage-2] | 2026-10-08 03:47:33.877000 | 172.19.0.4 |           3124 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-1] | 2026-10-08 03:47:33.877001 | 172.19.0.2 |           7967 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-2] | 2026-10-08 03:47:33.877001 | 172.19.0.4 |           3539 | 127.0.0.1
+                                                                      Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-1] | 2026-10-08 03:47:33.877002 | 172.19.0.2 |           8036 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-2] | 2026-10-08 03:47:33.877002 | 172.19.0.4 |           3630 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.877003 | 172.19.0.2 |           8131 | 127.0.0.1
+                                                                      Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-2] | 2026-10-08 03:47:33.877003 | 172.19.0.4 |           3769 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 2, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.877004 | 172.19.0.2 |           8241 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-2] | 2026-10-08 03:47:33.877004 | 172.19.0.4 |           3860 | 127.0.0.1
+                                                                                                      Merged data from memtables and 2 sstables [ReadStage-1] | 2026-10-08 03:47:33.877005 | 172.19.0.2 |           8425 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-1] | 2026-10-08 03:47:33.877006 | 172.19.0.2 |           8649 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-1] | 2026-10-08 03:47:33.877007 | 172.19.0.2 |           8687 | 127.0.0.1
+                                                                      Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-1] | 2026-10-08 03:47:33.877008 | 172.19.0.2 |           8764 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.877009 | 172.19.0.2 |           8867 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 2, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.878000 | 172.19.0.2 |           8970 | 127.0.0.1
+                                                                                                      Merged data from memtables and 1 sstables [ReadStage-2] | 2026-10-08 03:47:33.878000 | 172.19.0.4 |           4234 | 127.0.0.1
+                                                                                                      Merged data from memtables and 2 sstables [ReadStage-1] | 2026-10-08 03:47:33.878001 | 172.19.0.2 |           9117 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-2] | 2026-10-08 03:47:33.878001 | 172.19.0.4 |           4562 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-1] | 2026-10-08 03:47:33.878002 | 172.19.0.2 |           9269 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-2] | 2026-10-08 03:47:33.878002 | 172.19.0.4 |           4653 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-1] | 2026-10-08 03:47:33.878003 | 172.19.0.2 |           9305 | 127.0.0.1
+                                                                      Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-2] | 2026-10-08 03:47:33.878003 | 172.19.0.4 |           4861 | 127.0.0.1
+                                                                      Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-1] | 2026-10-08 03:47:33.878004 | 172.19.0.2 |           9380 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-2] | 2026-10-08 03:47:33.878004 | 172.19.0.4 |           4971 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.878005 | 172.19.0.2 |           9476 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 2, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.878006 | 172.19.0.2 |           9590 | 127.0.0.1
+                                                                                                      Merged data from memtables and 2 sstables [ReadStage-1] | 2026-10-08 03:47:33.878007 | 172.19.0.2 |           9787 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-1] | 2026-10-08 03:47:33.879000 | 172.19.0.2 |           9980 | 127.0.0.1
+                                                                                                      Merged data from memtables and 1 sstables [ReadStage-2] | 2026-10-08 03:47:33.879000 | 172.19.0.4 |           5313 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-1] | 2026-10-08 03:47:33.879001 | 172.19.0.2 |          10021 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-2] | 2026-10-08 03:47:33.879001 | 172.19.0.4 |           5898 | 127.0.0.1
+                                                                      Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-1] | 2026-10-08 03:47:33.879002 | 172.19.0.2 |          10097 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-2] | 2026-10-08 03:47:33.879002 | 172.19.0.4 |           6027 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.879003 | 172.19.0.2 |          10204 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 2, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.879004 | 172.19.0.2 |          10324 | 127.0.0.1
+                                                                                                      Merged data from memtables and 2 sstables [ReadStage-1] | 2026-10-08 03:47:33.879005 | 172.19.0.2 |          10554 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-1] | 2026-10-08 03:47:33.880000 | 172.19.0.2 |          11286 | 127.0.0.1
+                                                                      Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-2] | 2026-10-08 03:47:33.880000 | 172.19.0.4 |           6200 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-2] | 2026-10-08 03:47:33.880001 | 172.19.0.4 |           6294 | 127.0.0.1
+                                                                                                      Merged data from memtables and 1 sstables [ReadStage-2] | 2026-10-08 03:47:33.880002 | 172.19.0.4 |           6633 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-2] | 2026-10-08 03:47:33.880003 | 172.19.0.4 |           6971 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-2] | 2026-10-08 03:47:33.880004 | 172.19.0.4 |           7060 | 127.0.0.1
+                                                                      Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-2] | 2026-10-08 03:47:33.881000 | 172.19.0.4 |           7236 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-2] | 2026-10-08 03:47:33.881001 | 172.19.0.4 |           7340 | 127.0.0.1
+                                                                                                      Merged data from memtables and 1 sstables [ReadStage-2] | 2026-10-08 03:47:33.881002 | 172.19.0.4 |           7929 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-2] | 2026-10-08 03:47:33.883000 | 172.19.0.4 |           9038 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-2] | 2026-10-08 03:47:33.883001 | 172.19.0.4 |           9292 | 127.0.0.1
+                                                                      Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-2] | 2026-10-08 03:47:33.883002 | 172.19.0.4 |           9486 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-2] | 2026-10-08 03:47:33.883003 | 172.19.0.4 |           9618 | 127.0.0.1
+                                                                                                      Merged data from memtables and 1 sstables [ReadStage-2] | 2026-10-08 03:47:33.884000 | 172.19.0.4 |          10466 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-2] | 2026-10-08 03:47:33.884001 | 172.19.0.4 |          10881 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-2] | 2026-10-08 03:47:33.884002 | 172.19.0.4 |          10980 | 127.0.0.1
+                                                                      Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-2] | 2026-10-08 03:47:33.885000 | 172.19.0.4 |          11223 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-2] | 2026-10-08 03:47:33.885001 | 172.19.0.4 |          11313 | 127.0.0.1
+                                                                                                      Merged data from memtables and 1 sstables [ReadStage-2] | 2026-10-08 03:47:33.885002 | 172.19.0.4 |          11599 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-2] | 2026-10-08 03:47:33.885003 | 172.19.0.4 |          11967 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-2] | 2026-10-08 03:47:33.885004 | 172.19.0.4 |          12043 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-1] | 2026-10-08 03:47:33.886000 | 172.19.0.2 |          16900 | 127.0.0.1
+                                                                      Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-2] | 2026-10-08 03:47:33.886000 | 172.19.0.4 |          12150 | 127.0.0.1
+                                                                      Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-1] | 2026-10-08 03:47:33.886001 | 172.19.0.2 |          17058 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-2] | 2026-10-08 03:47:33.886001 | 172.19.0.4 |          12250 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.886002 | 172.19.0.2 |          17169 | 127.0.0.1
+                                                                                                      Merged data from memtables and 1 sstables [ReadStage-2] | 2026-10-08 03:47:33.886002 | 172.19.0.4 |          12538 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 2, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.886003 | 172.19.0.2 |          17305 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-2] | 2026-10-08 03:47:33.886003 | 172.19.0.4 |          12805 | 127.0.0.1
+                                                                                                      Merged data from memtables and 2 sstables [ReadStage-1] | 2026-10-08 03:47:33.886004 | 172.19.0.2 |          17514 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-2] | 2026-10-08 03:47:33.886004 | 172.19.0.4 |          12878 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-1] | 2026-10-08 03:47:33.886005 | 172.19.0.2 |          17721 | 127.0.0.1
+                                                                      Skipped 0/1 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-2] | 2026-10-08 03:47:33.886005 | 172.19.0.4 |          12975 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-1] | 2026-10-08 03:47:33.886006 | 172.19.0.2 |          17754 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-2] | 2026-10-08 03:47:33.886006 | 172.19.0.4 |          13046 | 127.0.0.1
+                                                                      Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-1] | 2026-10-08 03:47:33.886007 | 172.19.0.2 |          17814 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.887000 | 172.19.0.2 |          17900 | 127.0.0.1
+                                                                                                      Merged data from memtables and 1 sstables [ReadStage-2] | 2026-10-08 03:47:33.887000 | 172.19.0.4 |          13289 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 2, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.887001 | 172.19.0.2 |          17987 | 127.0.0.1
+                                                                                                        Read 10 live rows and 0 tombstone cells [ReadStage-2] | 2026-10-08 03:47:33.887001 | 172.19.0.4 |          13448 | 127.0.0.1
+                                                                                                      Merged data from memtables and 2 sstables [ReadStage-1] | 2026-10-08 03:47:33.887002 | 172.19.0.2 |          18134 | 127.0.0.1
+    Index query accessed memtable indexes, 1 SSTable index, and 1 segment, post-filtered 10 rows in 10 partitions, and took 13254 microseconds. [ReadStage-2] | 2026-10-08 03:47:33.887002 | 172.19.0.4 |          13613 | 127.0.0.1
+                                                                                             Executing single-partition query on actores_por_id [ReadStage-1] | 2026-10-08 03:47:33.887003 | 172.19.0.2 |          18286 | 127.0.0.1
+                                                                                                         Enqueuing response to /172.19.0.2:7000 [ReadStage-2] | 2026-10-08 03:47:33.887003 | 172.19.0.4 |          13680 | 127.0.0.1
+                                                                                                                   Acquiring sstable references [ReadStage-1] | 2026-10-08 03:47:33.887004 | 172.19.0.2 |          18320 | 127.0.0.1
+                                                     Sending RANGE_RSP message to cassandra1/172.19.0.2:7000 message size 800 bytes [Messaging-EventLoop-3-1] | 2026-10-08 03:47:33.887004 | 172.19.0.4 |          13922 | 127.0.0.1
+                                                                      Skipped 0/2 non-slice-intersecting sstables, included 0 due to tombstones [ReadStage-1] | 2026-10-08 03:47:33.887005 | 172.19.0.2 |          18376 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 1, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.887006 | 172.19.0.2 |          18439 | 127.0.0.1
+                                                                                                          Key cache hit for sstable 2, size = 0 [ReadStage-1] | 2026-10-08 03:47:33.887007 | 172.19.0.2 |          18549 | 127.0.0.1
+                                                                                                      Merged data from memtables and 2 sstables [ReadStage-1] | 2026-10-08 03:47:33.887008 | 172.19.0.2 |          18736 | 127.0.0.1
+                                                                                                        Read 10 live rows and 0 tombstone cells [ReadStage-1] | 2026-10-08 03:47:33.887009 | 172.19.0.2 |          18821 | 127.0.0.1
+ Index query accessed memtable indexes, 2 SSTable indexes, and 2 segments, post-filtered 10 rows in 10 partitions, and took 14013 microseconds. [ReadStage-1] | 2026-10-08 03:47:33.888000 | 172.19.0.2 |          18912 | 127.0.0.1
+                                                                                                         Enqueuing response to /172.19.0.2:7000 [ReadStage-1] | 2026-10-08 03:47:33.888001 | 172.19.0.2 |          18943 | 127.0.0.1
+                                                     Sending RANGE_RSP message to cassandra1/172.19.0.2:7000 message size 854 bytes [Messaging-EventLoop-3-1] | 2026-10-08 03:47:33.888002 | 172.19.0.2 |          19040 | 127.0.0.1
+                                                                                   RANGE_RSP message received from /172.19.0.4:7000 [Messaging-EventLoop-3-9] | 2026-10-08 03:47:33.888003 | 172.19.0.2 |          19057 | 127.0.0.1
+                                                                                   RANGE_RSP message received from /172.19.0.2:7000 [Messaging-EventLoop-3-4] | 2026-10-08 03:47:33.888004 | 172.19.0.2 |          19232 | 127.0.0.1
+                                                                                           Processing response from /172.19.0.4:7000 [RequestResponseStage-3] | 2026-10-08 03:47:33.888005 | 172.19.0.2 |          19319 | 127.0.0.1
+                                                                                           Processing response from /172.19.0.2:7000 [RequestResponseStage-3] | 2026-10-08 03:47:33.888006 | 172.19.0.2 |          19393 | 127.0.0.1
+                                                                                                                                             Request complete | 2026-10-08 03:47:33.890752 | 172.19.0.2 |          21752 | 127.0.0.1
+
+TRACING set to OFF

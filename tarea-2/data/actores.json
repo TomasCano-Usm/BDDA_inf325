@@ -1,0 +1,1484 @@
+[
+  {
+    "actor_id": "22dc5764-19bb-5de4-8060-67332a1efaf0",
+    "nombre": "Amalia Rojas",
+    "nacionalidad": "Chile",
+    "fecha_nacimiento": "2002-01-01",
+    "edad": 24,
+    "patrimonio": 100000,
+    "idiomas": [
+      "Espanol",
+      "Ingles"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "6b440b71-a6bd-52be-a776-4afd959a3af0",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 24,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "afff8879-9757-5e3e-862e-3dde3c18e85f",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 12,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "ca4ca0a4-6efa-5235-946a-d49947fda38f",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 5,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "f331a013-826a-58fc-9aa9-d8173c4bd1e9",
+    "nombre": "Bruno Vidal",
+    "nacionalidad": "Chile",
+    "fecha_nacimiento": "1986-02-02",
+    "edad": 40,
+    "patrimonio": 127500,
+    "idiomas": [
+      "Espanol"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "0667b7f5-c99c-514d-90ac-2331c858dd26",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 25,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "341996df-e3a6-59dd-a55f-991cd9f69f70",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 13,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "04d3b432-5d81-5e4a-8e4e-86625ae68012",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 6,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "9cf6f271-3399-54f4-aac4-9e35539833a7",
+    "nombre": "Camila Soto",
+    "nacionalidad": "Chile",
+    "fecha_nacimiento": "1994-03-03",
+    "edad": 32,
+    "patrimonio": 155000,
+    "idiomas": [
+      "Espanol",
+      "Ingles"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "e24541b1-836b-55ce-9e4c-04ef0fcc8217",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 26,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "d8c2a480-e509-5f42-95c5-8703c6043851",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 14,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "a8525cf1-7a23-5e6d-ae3a-579252bd661c",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 7,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "e32e2685-42c3-59cc-937e-c7ac1ee5a297",
+    "nombre": "Diego Araya",
+    "nacionalidad": "Chile",
+    "fecha_nacimiento": "1975-04-04",
+    "edad": 51,
+    "patrimonio": 182500,
+    "idiomas": [
+      "Espanol"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "caa77cb0-7c24-509d-bd8f-f6d9f3c5f381",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 27,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "d1243d4c-7aaf-5ee5-abd0-015d1675c454",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 15,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "26b8e7c5-16d1-5e8c-b125-cc8eb2428fd6",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 8,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "0d1ec8db-109e-50ab-977d-f51b641160e0",
+    "nombre": "Elena Flores",
+    "nacionalidad": "Chile",
+    "fecha_nacimiento": "1998-05-05",
+    "edad": 28,
+    "patrimonio": 210000,
+    "idiomas": [
+      "Espanol",
+      "Ingles"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "1850520e-550d-510a-b055-b696416d40e9",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 28,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "bb26a5ac-917d-5389-8b4c-48011a57e442",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 16,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "b5194529-6c10-5182-aeef-f3d042d264d0",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 5,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "0ef010d3-b37e-589b-b371-f1627e78b566",
+    "nombre": "Felipe Lagos",
+    "nacionalidad": "Chile",
+    "fecha_nacimiento": "1966-06-06",
+    "edad": 60,
+    "patrimonio": 237500,
+    "idiomas": [
+      "Espanol"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "935b3b13-96ed-5099-907f-8641e37a5500",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 29,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "ed040810-4769-5a38-b297-26b05a733075",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 17,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "691f60bd-29eb-53c5-8f6b-08cba7dc8c4a",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 6,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "1e1a5f04-3faa-5223-b982-ab32dfe32e9a",
+    "nombre": "Gabriela Vera",
+    "nacionalidad": "Chile",
+    "fecha_nacimiento": "1987-07-07",
+    "edad": 39,
+    "patrimonio": 265000,
+    "idiomas": [
+      "Espanol",
+      "Ingles"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "beab2af0-4fef-52d3-9287-8cc3c17735f1",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 30,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "92f60bea-c084-5e60-b425-e7cb47ea4616",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 12,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "7c2f9f68-7fc4-5cbd-a75e-6923781a2e11",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 7,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "90f56447-4a6b-5614-8c5e-3fec0aa30523",
+    "nombre": "Hector Salas",
+    "nacionalidad": "Chile",
+    "fecha_nacimiento": "1981-08-08",
+    "edad": 45,
+    "patrimonio": 292500,
+    "idiomas": [
+      "Espanol"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "f12631ca-42d4-52a7-a580-3c46d59eae47",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 31,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "bfa955f8-757f-58d8-9bc4-af31dbdad8c9",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 13,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "fd507c01-eff3-5afc-8e16-b0e51d28e517",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 8,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "150b34b1-3f45-5020-b92a-4a73bc3b2701",
+    "nombre": "Isidora Leon",
+    "nacionalidad": "Chile",
+    "fecha_nacimiento": "2004-09-09",
+    "edad": 22,
+    "patrimonio": 320000,
+    "idiomas": [
+      "Espanol",
+      "Ingles"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "b78ee744-e44e-53ff-b560-0586fa66d738",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 32,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "a16bd449-ca95-5f7b-9eb0-10d8ffb7fea4",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 14,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "a8b587d0-0930-519a-9e09-37620235acfa",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 5,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "4c9055a8-4b4e-5d89-a214-9a0ab5546450",
+    "nombre": "Javier Ruiz",
+    "nacionalidad": "Chile",
+    "fecha_nacimiento": "1990-01-10",
+    "edad": 36,
+    "patrimonio": 347500,
+    "idiomas": [
+      "Espanol"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "e858b040-8ff4-5796-b136-133b8e5f4026",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 24,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "d6388daf-e06f-57ed-9de0-35a955621ae4",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 15,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "020f274f-e489-5e7c-ab36-fd8ed6a107ed",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 6,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "9069c8b8-fcd9-556a-a374-acfa23db3ce0",
+    "nombre": "Kaori Mori",
+    "nacionalidad": "Japon",
+    "fecha_nacimiento": "2000-02-11",
+    "edad": 26,
+    "patrimonio": 375000,
+    "idiomas": [
+      "Ingles",
+      "Japones"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "6a058e42-edec-5f5a-a3ad-6dad8a44f5ef",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 25,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "f0920f80-ddd3-5373-9aa2-6b4c50f5b104",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 16,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "9ae52fa0-aae1-559f-9637-91165e77fb36",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 7,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "0e81ac86-d12e-590d-9365-1f67b54d591b",
+    "nombre": "Ren Takeda",
+    "nacionalidad": "Japon",
+    "fecha_nacimiento": "1984-03-12",
+    "edad": 42,
+    "patrimonio": 402500,
+    "idiomas": [
+      "Japones"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "6b197ac9-1056-53a1-9dec-ed40ba3aea5f",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 26,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "327c1b19-bf3e-5b7b-8e16-db87f9cda800",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 17,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "53110fcc-85e2-570f-9da3-a5409d5af274",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 8,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "5b1000e3-3ff9-5290-b0cc-b46adbd65379",
+    "nombre": "Hana Sato",
+    "nacionalidad": "Japon",
+    "fecha_nacimiento": "1996-04-13",
+    "edad": 30,
+    "patrimonio": 430000,
+    "idiomas": [
+      "Ingles",
+      "Japones"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "14cf8949-7edf-55c6-8322-6def009911d7",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 27,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "97fd738f-20ab-5d3d-bda1-7b7b58feee1f",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 12,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "0cda550d-5f7e-5ef4-855b-14c408d55218",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 5,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "d3ca6f36-016d-5f94-9155-650656a45019",
+    "nombre": "Yuki Arai",
+    "nacionalidad": "Japon",
+    "fecha_nacimiento": "1972-05-14",
+    "edad": 54,
+    "patrimonio": 457500,
+    "idiomas": [
+      "Japones"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "4f900a9e-be0b-5975-818a-4b57091b0492",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 28,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "8d601e3d-a91f-5441-85b9-85615ee65fa8",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 13,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "2363bd05-e959-51be-95cb-7245f595691f",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 6,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "1eb417ad-09cb-5d97-a686-c54c180cf64e",
+    "nombre": "Sora Fujita",
+    "nacionalidad": "Japon",
+    "fecha_nacimiento": "1988-06-15",
+    "edad": 38,
+    "patrimonio": 485000,
+    "idiomas": [
+      "Ingles",
+      "Japones"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "f2d21057-9d53-5370-b777-d064dc166cf4",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 29,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "371ec2c5-fabf-5ef0-a715-569feedf7f89",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 14,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "22ac1aba-f8be-5b7e-b4fe-cebf52a56c01",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 7,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "1f8dcf59-ec4c-58ff-8f82-33522f79c5eb",
+    "nombre": "Mateo Luna",
+    "nacionalidad": "Mexico",
+    "fecha_nacimiento": "1997-07-16",
+    "edad": 29,
+    "patrimonio": 512500,
+    "idiomas": [
+      "Espanol"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "d7f91826-8c84-5d12-85b2-6acbaa681f80",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 30,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "6d375c20-1e96-5191-b382-4e5af5f553b6",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 15,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "de324e53-8b3b-5c69-967c-61c32da261c1",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 8,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "1d6f26d2-6342-5276-ac55-b8dc03506f68",
+    "nombre": "Lucia Solis",
+    "nacionalidad": "Mexico",
+    "fecha_nacimiento": "1985-08-17",
+    "edad": 41,
+    "patrimonio": 540000,
+    "idiomas": [
+      "Espanol",
+      "Ingles"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "e9722328-ec9c-5e32-9d50-985545af1d3c",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 31,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "902d3101-92a7-55fc-93ff-7c8ad3bd08b0",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 16,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "85408bd8-6af3-5799-825d-dedcefb5abf8",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 5,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "4c17ef2e-1440-58f9-a43c-e8030be418a6",
+    "nombre": "Emilia Cruz",
+    "nacionalidad": "Mexico",
+    "fecha_nacimiento": "1991-09-18",
+    "edad": 35,
+    "patrimonio": 567500,
+    "idiomas": [
+      "Espanol"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "0390a5fc-7da0-569a-a54d-6af7e135bf46",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 32,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "57672e38-3a63-541b-b062-9435b38442c5",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 17,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "aba542d9-d616-546d-ab20-d0e24ce7858b",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 6,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "7b32053c-6ee1-524e-87d7-166940386c0b",
+    "nombre": "Nicolas Vega",
+    "nacionalidad": "Mexico",
+    "fecha_nacimiento": "1968-01-19",
+    "edad": 58,
+    "patrimonio": 595000,
+    "idiomas": [
+      "Espanol",
+      "Ingles"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "47182a4b-186d-54d2-8276-92689e2b4100",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 24,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "e20bb9fc-facd-5221-9ffc-fc544ff1bb56",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 12,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "57a30ba6-c71d-589a-b12c-33f74988f82b",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 7,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "f6575213-766b-5d27-b4b8-125f978a5609",
+    "nombre": "Valeria Rios",
+    "nacionalidad": "Mexico",
+    "fecha_nacimiento": "1999-02-20",
+    "edad": 27,
+    "patrimonio": 622500,
+    "idiomas": [
+      "Espanol"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "901d1075-9c42-52df-b6b2-9fc8f55974c9",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 25,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "1a06cd24-8215-589b-adec-d174ce02cc0f",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 13,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "38e05ea1-e701-5a56-a097-c085ff20e0b9",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 8,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "bd0964c1-bd7c-5ca1-ba18-ce83bd498250",
+    "nombre": "Oliver Reed",
+    "nacionalidad": "Estados Unidos",
+    "fecha_nacimiento": "1993-03-21",
+    "edad": 33,
+    "patrimonio": 650000,
+    "idiomas": [
+      "Ingles"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "3195e0f5-c659-5b83-9f1e-42e1a965e436",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 26,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "d126b172-f94f-5fb8-8d19-e5c4b1705d72",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 14,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "fb2b5f8b-fc43-56eb-94fc-150208f0a5cd",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 5,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "124a06f6-b9b7-50ae-8428-7ab911264073",
+    "nombre": "Emma Brooks",
+    "nacionalidad": "Estados Unidos",
+    "fecha_nacimiento": "1978-04-22",
+    "edad": 48,
+    "patrimonio": 677500,
+    "idiomas": [
+      "Ingles"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "d9701995-fe53-52b7-9e70-8c0354049a8b",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 27,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "c5a837a7-c918-535b-8ed7-038f4a1bf3ee",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 15,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "3f51d719-d0cb-514d-b390-e881f4121f78",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 6,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "1bf5b759-0b97-539c-ae71-ee7c78adbd75",
+    "nombre": "Noah Parker",
+    "nacionalidad": "Estados Unidos",
+    "fecha_nacimiento": "2003-05-23",
+    "edad": 23,
+    "patrimonio": 705000,
+    "idiomas": [
+      "Ingles"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "5ca11cd9-4d77-5fc4-81d0-e8a70e219983",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 28,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "1ace6355-012b-58d2-9c84-e0ac56b2e8b5",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 16,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "96a6afc2-81d8-54c6-a8c3-7e6fd8fa174b",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 7,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "97a4a1ca-d7d6-51ab-8235-0247e24c5c31",
+    "nombre": "Mia Collins",
+    "nacionalidad": "Estados Unidos",
+    "fecha_nacimiento": "1982-06-24",
+    "edad": 44,
+    "patrimonio": 732500,
+    "idiomas": [
+      "Ingles"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "c338cd99-b00c-5417-80d2-9d701d67b623",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 29,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "d6ccaeea-8d4d-5764-a407-73e0f247d29e",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 17,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "1977a630-564d-5df0-bc06-afb6286bacda",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 8,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "6306c7c9-d72e-55cf-8c4f-6d53a9949228",
+    "nombre": "Liam Hayes",
+    "nacionalidad": "Estados Unidos",
+    "fecha_nacimiento": "1989-07-25",
+    "edad": 37,
+    "patrimonio": 760000,
+    "idiomas": [
+      "Ingles"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "155e169b-798c-5b95-9f09-942f8dbafea3",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 30,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "6e2c4ebf-f109-501e-b3c3-5ac2bbf1f5c1",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 12,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "dbd1d757-ba27-54c1-8afe-e2fe1da390b9",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 5,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "40590905-ce7d-5815-8a53-0bc9ba0e58fa",
+    "nombre": "Sofia Martin",
+    "nacionalidad": "Espana",
+    "fecha_nacimiento": "2001-08-01",
+    "edad": 25,
+    "patrimonio": 787500,
+    "idiomas": [
+      "Espanol"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "3c18effa-66dd-5957-901b-110d192f64af",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 31,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "be7624ec-8409-5b70-bf82-63fdef4f25f2",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 13,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "259f2910-590e-5ccf-9ac1-46ad43fe82fd",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 6,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "db47888d-ad38-5055-989a-157352bacdd7",
+    "nombre": "Pablo Torres",
+    "nacionalidad": "Espana",
+    "fecha_nacimiento": "1976-09-02",
+    "edad": 50,
+    "patrimonio": 815000,
+    "idiomas": [
+      "Espanol",
+      "Ingles"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "af234a31-7415-541c-bb29-6e46aea9d287",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 32,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "5ea21691-cb04-5790-bc91-f98f30ae4661",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 14,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "ff7c1e18-f55e-5b6b-8be0-632a438caa1e",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 7,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "d7d71e12-e478-5252-8dcc-5833830aceb2",
+    "nombre": "Clara Gil",
+    "nacionalidad": "Espana",
+    "fecha_nacimiento": "1995-01-03",
+    "edad": 31,
+    "patrimonio": 842500,
+    "idiomas": [
+      "Espanol"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "c7fc80d6-a053-5355-930f-efecf33aa3dc",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 24,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "50ec901f-6a67-5c72-a4cf-b4937a2bd34e",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 15,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "54589636-3941-5ab5-aaa1-aaaba6c99861",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 8,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "07097163-f7af-55fc-8fba-3a2231ac98a3",
+    "nombre": "Adrian Serra",
+    "nacionalidad": "Espana",
+    "fecha_nacimiento": "1980-02-04",
+    "edad": 46,
+    "patrimonio": 870000,
+    "idiomas": [
+      "Espanol",
+      "Ingles"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "181cc8f6-f077-5b8b-a64f-7fa6f95ee3ff",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 25,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "fffa238d-6385-5afe-8025-0687def2f203",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 16,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "c0ebcf7d-91a9-53fd-b90e-babdccff0278",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 5,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  },
+  {
+    "actor_id": "8044538b-93f2-5983-a809-8a1d6da75162",
+    "nombre": "Alba Costa",
+    "nacionalidad": "Espana",
+    "fecha_nacimiento": "1992-03-05",
+    "edad": 34,
+    "patrimonio": 897500,
+    "idiomas": [
+      "Espanol"
+    ],
+    "personajes": [
+      {
+        "personaje_id": "74edbbf4-7cb3-5691-b613-3d89dfc7ab30",
+        "nombre_personaje": "Astra",
+        "produccion": "Guardianes del Alba",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 26,
+        "generos": [
+          "Animacion",
+          "Aventura"
+        ]
+      },
+      {
+        "personaje_id": "b1ba7741-fe88-5c58-a6f4-409468d5d12e",
+        "nombre_personaje": "Nimbo",
+        "produccion": "Orbita Azul",
+        "tipo_produccion": "profesional",
+        "rol": "principal",
+        "apariciones": 17,
+        "generos": [
+          "Animacion",
+          "Ciencia ficcion"
+        ]
+      },
+      {
+        "personaje_id": "06ab025e-c8f9-51d7-9d7d-2df333224e24",
+        "nombre_personaje": "Lumen",
+        "produccion": "Bosque de Papel",
+        "tipo_produccion": "independiente",
+        "rol": "secundario",
+        "apariciones": 6,
+        "generos": [
+          "Animacion",
+          "Fantasia"
+        ]
+      }
+    ]
+  }
+]
