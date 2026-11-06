@@ -12,6 +12,9 @@
 .cqlsh_history
 cqlsh_history
 
+# Neo4j database backups
+*.dump
+
 # Environment variables
 .env
 .env.*
